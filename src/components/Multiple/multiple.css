@@ -1,0 +1,52 @@
+.multiple {
+    text-align:center;
+}
+
+.multiple__inputdiv {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  padding-bottom: 15px;
+}
+
+.multiple__radiodiv {
+    text-align: left;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.multiple__checkbox {
+    display: block;
+}
+
+.multiple__textarea {
+    display: inline-block;
+    height: 64px;
+}
+
+.multiple__input{
+    display: block;
+    block-size: 25px;
+    /* border only at the bottom */
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: blue;
+    /**/
+    font-size: 15px;
+    margin: auto;
+}
+
+.multiple__button {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 5px 5x;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 0;
+}
